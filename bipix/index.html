@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>bipix</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" type="image/png" href="img/logo_white.svg" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="query.css" />
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <script src="https://kit.fontawesome.com/dd8a7c06d3.js " crossorigin="anonymous" defer></script>
+  <script defer src="script.js"></script>
+  
+  </head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <img src="img/logo.svg" alt="Bankpay logo" class="nav__logo" id="logo" />
+      <ul class="nav__links">
+        <li class="nav__item">
+          <a class="nav__link" href="#section--1">Vantagens</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--2">Projetos</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--5">Sobre</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--4">Contato</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="https://acesse.bipix.com.br" id="portalBI" target="_blank">Portal BI</a>
+        </li>
+        <li class="nav__item">
+          <!-- <a class="nav__link nav__link--btn btn--show-modal" href="#">Inscreva-se</a> -->
+        </li>
+      </ul>
+      
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <div class="header__title">
+      <div class="header__text-container">
+        <h1>
+          Não importa qual seja seu negócio, nós mostramos 
+
+          <span class="highlight">resultados</span>
+         
+            <br/>
+          <span class="highlight"></span>
+        </h1>
+        <h4>Transforme simples dados em informações poderosas para seu negócio.</h4>
+        <button class="btn--text btn--scroll-to">Mais sobre &DownArrow;
+        </button>
+      </div>
+
+      <div class="header__img-container">
+        <img src="img/hero.png" class="header__img" alt="Minimalist bank items" />
+      </div>
+    </div>
+    <a href="https://wa.me/5511918968006" class="whatsapp-button" target="_blank" >
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-logo" width="35px">
+    </a>
+  </header>
+
+
+
+
+  <section class="section" id="section--1">
+    <div class="section__title">
+      <h2 class="section__description">Vantagens</h2>
+      <h3 class="section__header">
+        Tudo que você precisa para sua empresa.
+      </h3>
+    </div>
+
+    <div class="features">
+      <img src="img/dashboard.jpg" data-src="img/dashboard.jpg" alt="Computer" class="features__img" />
+      <!-- https://storyset.com/ Images-->
+      <div class="features__feature">
+        <div class="features__icon">
+          <span class="material-symbols-outlined">
+            monitoring
+          </span>
+        </div>
+        <h5 class="features__header">Dashboards</h5>
+        <p>
+          Imagine ter os dados mais importantes da sua empresa na palma da sua mão, organizados e fáceis de entender! Com nossos dashboards personalizados, você terá uma visão clara e atualizada do desempenho da sua operação, finanças e muito mais. Tudo isso em apenas alguns cliques!
+        </p>
+      </div>
+
+      <div class="features__feature">
+        <div class="features__icon">
+          <span class="material-symbols-outlined">
+            update
+            </span>
+        </div>
+        <h5 class="features__header">Atualizações diárias</h5>
+        <p>
+          Os dados são atualizados automaticamente, permitindo ter as informações "quentes" no dia a dia, de acordo com cada necessidade dos diferentes departamentos. 
+        </p>
+      </div>
+      <img src="img/update.jpg" alt="Plant" class="features__img " />
+
+      <img src="img/decision.png" alt="Credit card" class="features__img " />
+      <div class="features__feature">
+        <div class="features__icon">
+          <span class="material-symbols-outlined">
+            target
+            </span>
+        </div>
+        <h5 class="features__header">Decisões acertivas</h5>
+        <p>
+          Nossos dashboards são feitos sob medida para as necessidades do seu negócio, ajudando a reduzir erros, identificar oportunidades de crescimento e melhorar continuamente seus resultados.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section--2">
+    <div class="section__title">
+      <h2 class="section__description">Projetos</h2>
+      <h3 class="section__header">
+        Confira algum dos nossos produtos.
+      </h3>
+    </div>
+
+    <div class="operations">
+      <div class="operations__tab-container">
+        <button class="btn operations__tab operations__tab--1 operations__tab--active" data-tab="1">
+          <span>01</span>Operacional
+        </button>
+        <button class="btn operations__tab operations__tab--2" data-tab="2">
+          <span>02</span>Tático 
+        </button>
+        <button class="btn operations__tab operations__tab--3" data-tab="3">
+          <span>03</span>Estratégico
+        </button>
+      </div>
+
+      <div class="operations__content operations__content--1 operations__content--active">
+        <!-- <h5 class="operations__header">
+          Atrasados de entrega
+        </h5> -->
+          <iframe class="container" title="CTRCS_ATRASADOS_DE_ENTREGA" src="https://app.powerbi.com/view?r=eyJrIjoiNjc1MzkzZGEtMmNmNC00YmM5LWJjY2EtMWNmZWMwOGY0OTljIiwidCI6ImE0YThmYTJiLWQyMGYtNDdlZi1hNDAzLTFkMzBmMGJhNTRmZCJ9" frameborder="0"  ></iframe>
+      </div>
+
+      <div class="operations__content operations__content--2">
+        <!-- <h5 class="operations__header">
+          Performance de Entrega
+        </h5> -->
+        <iframe class="container" title="PERFORMANCE_DOS_CTRCS_ENTREGUES" src="https://app.powerbi.com/view?r=eyJrIjoiNTM3MzMwZmMtNzY2ZS00YTIwLThiMDMtZWU2NTFkYmFjOGRmIiwidCI6ImE0YThmYTJiLWQyMGYtNDdlZi1hNDAzLTFkMzBmMGJhNTRmZCJ9" frameborder="0" ></iframe>
+      </div>
+      
+      <div class="operations__content operations__content--3">
+        <!-- <h3 class="operations__header">
+          Ranking de clientes
+        </h3> -->
+        <iframe class="container" title="RANKING_CLIENTES" src="https://app.powerbi.com/view?r=eyJrIjoiOGI2YzMxNDItMzc2Yi00ZTczLTg2NWEtYjA1Y2Q1ZWNmMTFkIiwidCI6ImE0YThmYTJiLWQyMGYtNDdlZi1hNDAzLTFkMzBmMGJhNTRmZCJ9" frameborder="0" ></iframe>
+    </div>
+  </section>
+
+  <section class="section" id="section--5">
+        <div class="section__title section__title--testimonials">
+          <h2 class="section__description">Sobre nós</h2>
+          <h3 class="section__header">
+            Quais são nossos objetivos:
+          </h3>
+        </div>
+        <br>
+        <div class="separar">
+          <div>
+            <h5 class="operations__header">
+              Missão
+            </h5>
+            <p>
+              Fornecer soluções que permitam nossos clientes a terem visibilidade de seus negócios e possam tomar decisões que gerem impactos positivos em suas empresas
+            </p>
+            <br>
+            <h5 class="operations__header">
+              Visão
+            </h5>
+            <p>
+              Ser referência como uma empresa geradora de resultados para os clientes!        
+            </p>
+          </div>
+          <img src="img/missao.png" data-src="img/missao.png" alt="Computer" class="features__img " />
+        </div>
+
+
+  </section>
+
+  <!-- <section class="section" id="section--3">
+    <div class="section__title section__title--testimonials">
+      <h2 class="section__description">Está em dúvida?</h2>
+      <h3 class="section__header">
+        Confira as avaliações dos nossos clientes
+      </h3>
+    </div>
+
+    <div class="slider">
+      <div class="slide slide--1">
+        <div class="testimonial">
+          <h5 class="testimonial__header">Lorem ipsum dolor sit amet</h5>
+          <blockquote class="testimonial__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Matheus Akira</h6>
+            <p class="testimonial__location">São Paulo, Brasil</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide slide--2">
+        <div class="testimonial">
+          <h5 class="testimonial__header">
+            Lorem ipsum dolor sit amet
+          </h5>
+          <blockquote class="testimonial__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Matheus Akira</h6>
+            <p class="testimonial__location">São Paulo, Brasil</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide slide--3">
+        <div class="testimonial">
+          <h5 class="testimonial__header">
+            Lorem ipsum dolor sit amet
+          </h5>
+          <blockquote class="testimonial__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Matheus Akira</h6>
+            <p class="testimonial__location">São Paulo, Brasil</p>
+          </address>
+        </div>
+      </div>
+
+      <button class="slider__btn slider__btn--left">&larr;</button>
+      <button class="slider__btn slider__btn--right">&rarr;</button>
+      <div class="dots"></div>
+    </div>
+  </section> -->
+
+  <section class="section section--sign-up" id="section--4">
+    <div class="section__title">
+      <h3 class="section__header1">
+        Fale conosco
+      </h3>
+      <form class="modal__form1" action="https://formsubmit.co/manhiramatsu@gmail.com" method="POST">
+        <label for="">Nome</label>
+        <input type="text" id="nome" placeholder="Digite seu nome" required/>
+        <label>Mensagem</label>
+        <textarea name="mensagem" id="mensagem" maxlength="150" rows="2" placeholder="Digite sua mensagem"></textarea>
+        <label>Email</label>
+        <input type="hidden" name="_next" value="index.html">
+        <input type="hidden" id="submit" name="_subject" value="Novo Contato!">
+        <input type="email" name="email" placeholder="Digite seu email" required>
+        <input type="hidden" name="_honey" style="display:none">
+        <button type="submit" id="submit">Enviar</button>
+      </form>
+      
+      <div class="contato">
+        <h4 class="section__header1">
+          Contato
+        </h4>
+      </div>
+        <div class="container-contato">
+          <div class="contato-div">
+            <img src="img/logo-whatsapp.svg" alt="" class="icon whatsapp">
+            <p class="contato-size-font" >
+              (11) 91896-8006            
+            </p>
+          </div>
+
+          <div class="contato-div">
+            <img src="img/mail.svg" alt="" class="icon email">
+            <p class="contato-size-font">
+              bipix@bipix.com.br
+            </p>
+          </div>
+
+          <div class="contato-div">
+            <img src="img/instagram.svg" alt="" class="icon instagram" width="25px">
+            <p class="contato-size-font">
+              @bipix.com.br
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- https://formsubmit.co/documentation-->
+    <!-- <button class="btn btn--show-modal">Open your free account today!</button> -->
+  </section>
+
+  <footer class="footer">
+    <ul class="footer__nav">
+      <li class="footer__item">
+        <a class="footer__link" href="#section--1">Vantagem</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#section--2">Projetos</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#section--3">Sobre</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="section--4">Contato</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="https://acesse.bipix.com.br" target="_blank">Portal</a>
+      </li>
+
+    </ul>
+    <img src="img/logo_white.svg" alt="Logo" class="footer__logo" />
+    <p class="footer__copyright">
+      &copy; copyright <span class="copyright--date"></span>
+      <a class="footer__link github-link" target="_blank" href="#">
+        - &nbsp; <i class="fa-brands fa-github-alt"></i>
+      </a>
+      •
+      <a class="footer__link twitter-link" target="_blank" href="#">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      •
+      <a class="footer__link linkedin-link" target="_blank" href="#">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+      •
+      <span class="copyright-name">Matheus Akira</span>
+    </p>
+  </footer>
+
+  <div class="modal hidden">
+    <button class="btn--close-modal">&times;</button>
+    <h2 class="modal__header">
+       <span class="highlight">Fale conosco
+       </span>
+    </h2>
+    <form class="modal__form">
+      <label>Nome</label>
+      <input type="text" />
+      <label>Sobrenome</label>
+      <input type="text" />
+      <label>Email</label>
+      <input type="email" />
+      <button class="btn btn--Next">Next step &rarr;</button>
+    </form>
+  </div>
+  <div class="overlay hidden"></div>
+  
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="lecture.js"></script>
+</body>
+
+</html>
